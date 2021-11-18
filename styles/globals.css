@@ -4,10 +4,12 @@
 :root {
   --primary: #166ae8;
 }
+* {
+  font-family: 'Quicksand', sans-serif;
+}
 body {
   padding: 0;
   margin: 0 20px;
-  font-family: 'Quicksand', sans-serif;
   color: #444;
   background: #f2f2f2;
 }
@@ -54,4 +56,5 @@ nav li.btn:hover {
 /* banner */
 .banner img {
   border-radius: 6px;
+  object-fit: cover;
 }
